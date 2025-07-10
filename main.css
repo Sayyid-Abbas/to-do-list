@@ -1,0 +1,93 @@
+body {
+  background-color: #222;
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  margin: 100px auto 0px;
+  width: 600px;
+  max-width: 100%;
+}
+.container .form {
+  background-color: #EEE;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+.container .form .input {
+  border: none;
+  height: 40px;
+  border-radius: 10px;
+  flex: 1;
+  font-size: 20px;
+}
+.container .form .add {
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  height: 40px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 17px;
+}
+.container .form .input:focus {
+  outline: none;
+}
+.container .tasks {
+  background-color: #EEE;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: center ;
+  padding: 20px;
+  display: none;
+}
+.container .tasks .task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.container .tasks .task:not(:last-child) {
+  margin-bottom: 20px;
+}
+.container .tasks .task .text-in-task {
+  max-width: calc(100% - 60px);
+  word-wrap: break-word;
+  font-size: normal;
+}
+.container .tasks .task .delete {
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 10px;
+}
+.container .clear {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: #EEE;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 5px;
+}
+.container .clear span {
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 7px;
+  font-size: 20px;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  border: 2px solid black;
+  text-transform: uppercase;
+  font-weight: bold;
+}
