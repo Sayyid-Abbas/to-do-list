@@ -15,6 +15,12 @@ body {
   gap: 10px;
   margin-bottom: 30px;
 }
+@media (max-width: 450px) {
+  .container .form {
+    flex-direction: column;
+    height: 90px;
+  }
+}
 .container .form .input {
   border: none;
   height: 40px;
