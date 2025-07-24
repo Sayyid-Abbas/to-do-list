@@ -3,7 +3,7 @@ Simple To Do List With HTML, CSS And JS
 
 ---
 
-## [To Do List](https://sayyid-abbas.github.io/Simple-Projects-HTML-CSS-JS/to-do-list/)
+## [To Do List](https://sayyid-abbas.github.io/to-do-list/)
 
 The main focus in this project was the use of local storage, that effects the project in two ways:
 1. When reloading the page, the content will stay as it was.
